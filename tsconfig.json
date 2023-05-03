@@ -4,6 +4,7 @@
 		"module": "commonjs",
 		"lib": ["es2020", "DOM"],
 		"allowJs": true,
+		"declaration": true,
 		"rootDirs": ["src"],
 		"outDir": "dist",
 		"resolveJsonModule": true,
@@ -17,5 +18,5 @@
 		"experimentalDecorators": true,
 		"typeRoots": ["./node_modules/@types"]
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules", "demo"]
 }
