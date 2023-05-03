@@ -1,6 +1,6 @@
 {
   "name": "@opsvent/hmac",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Feature complete, easy to use signing and signature verification for all of your secure API request needs. It works both in browsers and in Node.JS.",
   "main": "dist/index.js",
   "scripts": {
