@@ -32,9 +32,9 @@ steps:
     commands:
       - npm set registry https://registry.npmjs.org
       - npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
-      - npm publish
+      - npm publish --access public
 ---
 kind: signature
-hmac: ef91e3dcc5fcc2327850b0fce4019d8186429ea63b16f3df1a8843e0754ee3da
+hmac: bc5bba3646273ea9406cabcd3de1b49f81b4a1376017651307791403fcda0a82
 
 ...
