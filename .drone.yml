@@ -28,13 +28,13 @@ steps:
         - tag
     environment:
       NPM_TOKEN:
-        from_secret: OPSVENT_NPM
+        from_secret: npm_token
     commands:
       - npm set registry https://registry.npmjs.org
       - npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
       - npm publish --access public
 ---
 kind: signature
-hmac: bc5bba3646273ea9406cabcd3de1b49f81b4a1376017651307791403fcda0a82
+hmac: fd3766cae95fa56e6b34e5b117e68f835e3a12e6192b7c0a65fd8522106423a8
 
 ...
