@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/opsvent/hmac/compare/v1.1.0...v1.1.1) (2025-04-09)
+
+
+### Build/CI
+
+* Use new NPM token ([b304f96](https://github.com/opsvent/hmac/commit/b304f96db9cc86fe0b4ad6e469947ba2b0e4c3d2))
+
 ## [1.1.0](https://github.com/opsvent/hmac/compare/v1.0.1...v1.1.0) (2025-04-09)
 
 
