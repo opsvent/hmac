@@ -23,7 +23,7 @@
     "opsvent"
   ],
   "author": "Opsvent <contact@opsvent.com>",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/opsvent/hmac/issues"
   },
